@@ -1,5 +1,5 @@
 fun main() {
-    val student: Student?  = Student()
+    val student: Student?   = Student()
     student?.let { st ->
         st.hi()
         st.bye()
